@@ -1,0 +1,19 @@
+/* Container for sticky notes */
+.sticky-notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap as needed */
+  }
+  
+  /* Individual sticky note */
+  .sticky-note {
+    background-color: lightyellow; /* Yellow sticky note color */
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for sticky note effect */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+  
